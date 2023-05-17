@@ -1,0 +1,33 @@
+
+ .BG{
+     font-size: 100%;
+     background: url("../images/V_1.jpg");
+ }
+.polygon img{
+    width: 100%;
+    background: url("../images/polygon.png");
+}
+
+// GLOBALS
+
+@import 'bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+
+// SIGN UP
+.sign-up{
+    background: url(../images/signUp.png);
+    width: 300px;
+    min-height: 64vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    padding: 92px 8px;
+    margin-top: 48px;
+}
+
+// LOGIN
+
