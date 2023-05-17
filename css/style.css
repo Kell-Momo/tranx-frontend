@@ -10827,13 +10827,20 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: 'Inter', sans-serif;
 }
 
-.sign-up {
-  background: url(../images/signUp.png);
+.sign-up, .log-in {
   width: 300px;
   min-height: 64vh;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding: 92px 8px;
   margin-top: 48px;
+}
+
+.sign-up {
+  background-image: url(../images/signUp.png);
+}
+
+.log-in {
+  background-image: url(../images/logIn.png);
 }
 /*# sourceMappingURL=style.css.map */

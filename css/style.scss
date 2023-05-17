@@ -17,9 +17,8 @@
 }
 
 
-// SIGN UP
-.sign-up{
-    background: url(../images/signUp.png);
+// sign up and login 
+.sign-up, .log-in{
     width: 300px;
     min-height: 64vh;
     background-size: 100% 100%;
@@ -29,5 +28,13 @@
     margin-top: 48px;
 }
 
-// LOGIN
+// SIGN UP
+.sign-up {
+    background-image: url(../images/signUp.png);
+}
 
+
+// LOGIN
+.log-in {
+    background-image: url(../images/logIn.png);
+}
