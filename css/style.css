@@ -1,12 +1,112 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
 .BG {
-  font-size: 100%;
-  background: url("../images/V_1.jpg");
+  position: relative;
+  width: 100%;
+  height: 150vh;
+  background-size: cover;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
 }
 
-.polygon img {
+.name {
+  position: absolute;
+  left: 20px;
+  top: 400px;
+  width: 50%;
+}
+
+span.devise {
+  font-size: 30px;
+  color: white;
+  text-decoration: underline;
+}
+
+span.description {
+  font-size: 18px;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  background-image: url("../images/logo.png");
+  width: 10%;
+  height: 57px;
+  left: 10px;
+  top: 20px;
+}
+
+header {
+  position: relative;
+  padding: 0 2rem;
+}
+
+nav {
+  background-color: white;
   width: 100%;
-  background: url("../images/polygon.png");
+  height: 60%;
+  margin: 0 auto;
+}
+
+ul {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.menu {
+  background-color: orange;
+  font-size: 18px;
+}
+
+ul li {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2px;
+  margin-left: 16px;
+  left: 300px;
+}
+
+a:hover {
+  color: white;
+}
+
+.logo1 {
+  background-image: url("../images/logo.png");
+  width: 10%;
+  height: 57px;
+  left: 10px;
+  top: 0px;
+  position: absolute;
+}
+
+.title {
+  font-style: bold;
+  font-size: 30px;
+  top: 50px;
+}
+
+.title_img {
+  background-image: url("../images/istockphoto-1091547286-612x612.jpg");
+  width: 100%;
+  height: 40%;
+  height: 300px;
+  background-size: contain;
 }
 
 :root {

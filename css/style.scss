@@ -1,12 +1,99 @@
 
  .BG{
-     font-size: 100%;
-     background: url("../images/V_1.jpg");
- }
-.polygon img{
-    width: 100%;
-    background: url("../images/polygon.png");
+     position: relative;
+     width: 100%;
+     height: 150vh;
+     background-size: cover;
+     background-image: url("../images/background.png");
+     background-repeat: no-repeat;
 }
+
+.name{
+    position: absolute;
+    left:20px;
+    top:400px;
+    width: 50%;
+    
+}
+span.devise{
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+
+}
+span.description{
+    font-size: 18px;
+    color: white;
+}
+.logo{
+    position:absolute;
+    background-image: url("../images/logo.png");
+    width: 10%;
+    height: 57px;
+    left:10px;
+    top:20px;
+}
+// both index.html & ourservices.html
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+nav{
+    background-color:white;
+    width: 100%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+ul{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    background-color:orange;
+    font-size: 18px;
+}
+
+ul li{
+    display: block;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    margin-left: 16px;
+    left: 300px;
+}
+
+a:hover{
+    color:white;
+}
+.logo1{
+    background-image: url("../images/logo.png");
+    width: 10%;
+    height: 57px;
+    left:10px;
+    top:0px;
+    position: absolute;
+}
+// end
+// only ourservices.html
+.title{
+    font-style:bold;
+    font-size: 30px;
+    top: 50px;
+
+}
+.title_img{
+    background-image:url("../images/istockphoto-1091547286-612x612.jpg");
+    width: 100%;
+    height: 40%;
+    height: 300px;
+    background-size: contain;
+    // top:
+
+}
+    
 
 // GLOBALS
 
